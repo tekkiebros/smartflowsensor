@@ -1,3 +1,13 @@
+#######################################
+#                                     #
+#           Code by TekkieBros        #
+#                                     #
+#             Visit us on             #
+#       https://www.tekkiebros.de     #
+#                                     #
+#######################################
+
+
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
