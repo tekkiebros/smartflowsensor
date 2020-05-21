@@ -11,6 +11,9 @@
 #define mqtt_user "MQTT_USER"                   // MQTT User
 #define mqtt_password "MQTT_PASSWORD"           // MQTT Password
 
+
+float factor = 5.0;                             //Flow Sensor Factor
+
 #####################################################################
 
 #define topicCurrent "flowMeter/Current_L_min"  // MQTT Topic for Current Flow
@@ -21,7 +24,6 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 
-float factor = 5.0;
 byte interrupt = 0;
 byte sensorPin = 4;
 byte pulseCount;
